@@ -10,6 +10,7 @@ public class ArrayListDemo1 {
         ArrayList<Integer> arr=new ArrayList<>(Arrays.asList(100,234,567,1,2,5,3,4,100,567,234));
         LinkedHashSet<Integer> lhs=new LinkedHashSet<>(arr);
         System.out.println(lhs);
+
         ArrayList<Integer> arrWithOutDuplicate=new ArrayList<>(lhs);
         System.out.println(arrWithOutDuplicate);
 
